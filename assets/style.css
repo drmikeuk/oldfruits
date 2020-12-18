@@ -1,9 +1,9 @@
 /* my styles */
-.header {background: #eee; border-bottom: 5px solid #ddd; margin-bottom: 2rem}
+.header {background: #eee; border-bottom: 5px solid #ddd;}
 .footer {background: #efefef; padding: 3em 0 2em;   margin-top: 2em}
 
-.banner           {height: 500px; background-size: cover; margin-top: 20px; margin-bottom: 50px}
-.banner h1        {padding-top: 1em}
+.banner           {height: 500px; background-size: cover; margin-bottom: 50px; padding-top: 2rem}
+.banner h1        {background: rgba(255,255,255, 0.3); padding: 0.2rem}
 
 .card             {border-radius: 0}
 .card-img-top     {max-height: 10rem; width:auto; object-fit: cover; border-top-left-radius: 0; border-top-right-radius: 0}

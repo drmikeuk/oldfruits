@@ -17,7 +17,7 @@ plugins:
 
 page_gen:
   - data: 'fruits'
-    template: 'fruits'
+    template: 'fruit'
     dir: 'fruits'
-    name: 'image'
-    title: 'fruit'
+    name: 'uk_rank'
+    title: 'fruitname'

@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-<div class="container">
+<div class="container" style="padding-top: 2rem">
 	<div class="row">
 
 {% for fruit in site.data.fruits %}
@@ -12,13 +12,13 @@ title: "Home"
   <div class="card" >
     <img src="{{ fruit.image | prepend: "/images/"}}" class="card-img-top" alt="photo of {{ fruit.fruit }}">
     <div class="card-body">
-      <h5 class="card-title">{{ fruit.fruit }}</h5>
+      <h5 class="card-title">{{ fruit.fruitname }}</h5>
       <p class="card-text">{{ fruit.blurb }}</p>
     </div>
-<!--    <div class="card-footer">
-      <a href="{{ city.Link }}" class="btn btn-primary">Project details <i class="fas fa-chevron-right"></i></a>
+    <div class="card-footer">
+      {% assign link = fruit.uk_rank | prepend: "/fruits/"| append: ".html" %}
+      <a href="{{ link }}" class="btn btn-primary">Details <i class="fas fa-chevron-right"></i></a>
     </div>
--->
   </div>
 </div>
 
