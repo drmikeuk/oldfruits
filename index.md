@@ -16,7 +16,7 @@ title: "Home"
       <p class="card-text">{{ fruit.blurb }}</p>
     </div>
     <div class="card-footer">
-      {% assign link = fruit.uk_rank | prepend: "/fruits/"| append: ".html" %}
+      {% assign link = fruit.fruitname | remove: " " | downcase | prepend: "/fruits/"| append: ".html" %}
       <a href="{{ link }}" class="btn btn-primary">Details <i class="fas fa-chevron-right"></i></a>
     </div>
   </div>

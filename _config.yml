@@ -19,5 +19,5 @@ page_gen:
   - data: 'fruits'
     template: 'fruit'
     dir: 'fruits'
-    name: 'uk_rank'
+    name_expr: 'record["fruitname"].delete(" ")'
     title: 'fruitname'
