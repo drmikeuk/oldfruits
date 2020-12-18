@@ -10,9 +10,9 @@ title: "Home"
 
 <div class="col-lg-3 col-md-6 col-sm-12 pb-4" >
   <div class="card" >
-    <img src="{{ fruit.image | prepend: "/images/"}}" class="card-img-top" alt="photo of {{ fruit.name }}">
+    <img src="{{ fruit.image | prepend: "/images/"}}" class="card-img-top" alt="photo of {{ fruit.fruit }}">
     <div class="card-body">
-      <h5 class="card-title">{{ fruit.name }}</h5>
+      <h5 class="card-title">{{ fruit.fruit }}</h5>
       <p class="card-text">{{ fruit.blurb }}</p>
     </div>
 <!--    <div class="card-footer">

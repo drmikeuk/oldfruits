@@ -8,5 +8,16 @@ port: 			  4115
 #markdown: kramdown
 exclude: ["README.md"]
 
-#source "https://rubygems.org"
-#gem "github-pages", group: :jekyll_plugins
+
+# Extra plugin to create page per item from data sources eg CSV
+# https://github.com/avillafiorita/jekyll-datapage_gen
+
+plugins:
+  - jekyll-datapage-generator
+
+page_gen:
+  - data: 'fruits'
+    template: 'fruits'
+    dir: 'fruits'
+    name: 'image'
+    title: 'fruit'
