@@ -21,3 +21,9 @@ page_gen:
     dir: 'fruits'
     name_expr: 'record["fruitname"].delete(" ")'
     title: 'fruitname'
+
+  - data: 'fruits'
+    template: 'cat'
+    dir: 'category'
+    name_expr: 'record["category"].delete(" ")'
+    title: 'category'
