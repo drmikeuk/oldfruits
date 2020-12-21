@@ -8,8 +8,9 @@
 .card             {border-radius: 0}
 .card-img-top     {max-height: 10rem; width:auto; object-fit: cover; border-top-left-radius: 0; border-top-right-radius: 0}
 
-
-
+.tableauto        {width: auto}
+.highlight        {background-color: #f8f8f8;}
+.highlight .sr    {color: #586e75;  /* not red as OTT */}
 
 
 /*
