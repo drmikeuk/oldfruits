@@ -23,7 +23,7 @@ banner image by _convention_ ie /cat-thumbs/<cat name>.jpg ??
 
 	<div class="row">
 
-		{% assign fruits = (site.data.fruits | where: "category",page.category ) %}
+		{% assign fruits = site.data.fruits | where: "category",page.category %}
 		{% for fruit in fruits %}
 			{% include card.html %}
 		{% endfor %}
