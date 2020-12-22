@@ -6,7 +6,7 @@
 .banner h1        {background: rgba(255,255,255, 0.6); padding: 0.5rem 1rem; display: inline-block;}
 
 .card             {border-radius: 0}
-.card-img-top     {max-height: 10rem; width:auto; object-fit: cover; border-top-left-radius: 0; border-top-right-radius: 0}
+.card-img-top     {height: 10rem; width:auto; object-fit: cover; border-top-left-radius: 0; border-top-right-radius: 0}
 
 .tableauto        {width: auto}
 .highlight        {background-color: #f8f8f8;}
